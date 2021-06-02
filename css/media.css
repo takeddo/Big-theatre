@@ -1,0 +1,146 @@
+@media (max-width: 1100px) {
+    .header {
+        background-size: auto;
+    }
+
+    .text {
+        margin-right: 1px;
+    }
+
+    .text p {
+        width: 400px;
+    }
+
+    .img-book {
+        display: none;
+    }
+
+    .feedback {
+        display: none;
+    }
+
+    .nav-link {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 10px;
+    }
+    .nav-link a {
+        font-size: 32px;
+        padding-top: 35px;
+        padding-bottom: 1px;
+    }
+}
+
+@media (max-width: 805px) {
+    .nav-link a {
+        font-size: 32px;
+        padding-top: 15px;
+    }
+
+    .nav {
+        font-size: 8px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .text h1 {
+        font-size: 25px;
+    }
+
+    .text p {
+        width: 350px;
+    }
+
+    .button-afisha {
+        width: 100px;
+        padding: 15px 12px;
+    }
+
+    .title {
+        font-size: 34px;
+    }
+
+    .works-title {
+        font-size: 34px;
+    }
+
+    .sponsors-title {
+        font-size: 34px;
+    }
+
+    .sponors-img {
+        width: 400px;
+    }
+
+    .desc {
+        flex-direction: column;
+    }
+
+    .works {
+        float: none;
+    }
+
+    .first-block {
+        width: 300px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .works-title {
+        font-size: 25px;
+    }
+
+    .sponsors-title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:760px) {
+    .text p {
+        width: 250px;
+    }
+
+    .nav-link {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 10px;
+    }
+
+    .nav-link a {
+        margin: 0;
+        font-size: 24px;
+        padding-top: 15px;
+        padding-bottom: 1px;
+    }
+}
+
+@media (max-width: 400px) {
+    .img-theatre {
+        display: none;
+    }
+}
+
+@media (max-width:460px) {
+
+    .first-block p {
+        font-size: 10px;
+    }
+
+    .sponsors-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sponors-img {
+        width: 100%;
+    }
+
+    .sponors-img img{
+        width: 300px !important;
+        height: auto;
+        padding-bottom: 50px;
+    }
+}
